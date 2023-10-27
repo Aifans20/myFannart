@@ -1,0 +1,137 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=LeagueSpartan&display=swap");
+
+body {
+  background-image: url(/img/6318635_3247885.jpg);
+  background-size: cover;
+}
+
+.lapis {
+  width: 90%;
+  display: flex;
+  margin-top: 200px;
+  margin-left: 50px;
+  padding-bottom: 100px;
+}
+
+h2 {
+  font-size: 80%;
+  color: rgb(255, 0, 157);
+}
+h1 {
+  font-size: 150%;
+}
+.tex {
+  font-weight: 900;
+  margin-left: 40px;
+  font-size: 30px;
+  color: white;
+  text-decoration: none;
+}
+
+p {
+  font-size: 15px;
+  font-weight: 100;
+  width: 90%;
+  margin-bottom: 30px;
+}
+a {
+  padding: 10px;
+  background-color: rgb(255, 0, 157);
+  color: white;
+  text-decoration: none;
+  border-radius: 15px;
+  font-size: 18px;
+  font-weight: lighter;
+  border: 2px solid transparent;
+  transition: 1000ms all;
+}
+.bth {
+  background-color: white;
+  padding: 10px;
+  color: rgb(255, 0, 157);
+}
+
+a:hover {
+  background-color: transparent;
+  color: rgb(255, 0, 157);
+  border: 2px solid rgb(255, 255, 255);
+}
+
+.bth:hover {
+  background-color: transparent;
+  color: white;
+  border: 2px solid rgb(255, 0, 157);
+}
+
+@media (max-width: 800px) {
+  .lapis {
+    width: 90%;
+    display: block;
+    margin: 0 auto;
+  }
+  .fto {
+    padding-top: 100px;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+  }
+  .tex {
+    margin-left: 0;
+  }
+
+  .fto img {
+    width: 80%;
+  }
+  h2 {
+    width: 90%;
+    font-size: 100%;
+  }
+  h1 {
+    margin: 0 auto;
+    font-size: 90%;
+  }
+  p {
+    font-size: 40%;
+    margin-top: 20px;
+  }
+}
+
+@media (max-width: 425px) {
+  .lapis {
+    width: 90%;
+    display: block;
+    margin: 0 auto;
+  }
+  .fto {
+    padding-top: 100px;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+  }
+  .tex {
+    margin-left: 10%;
+  }
+
+  .fto img {
+    width: 80%;
+  }
+  h2 {
+    width: 90%;
+    font-size: 100%;
+  }
+  h1 {
+    margin: 0 auto;
+    font-size: 90%;
+  }
+  p {
+    font-size: 40%;
+    margin-top: 20px;
+  }
+}
+
